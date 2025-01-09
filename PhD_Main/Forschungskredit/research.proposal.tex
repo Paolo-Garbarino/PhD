@@ -1,0 +1,66 @@
+\documentclass[a4paper, 11pt]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{csquotes}
+\usepackage{amsmath}
+\usepackage[sorting=none, backend=biber,
+            style=numeric]
+            {biblatex}
+
+\addbibresource{bibliography.bib}
+\setlength{\parindent}{0pt}
+
+\begin{document}
+\begin{center}
+    {\Large
+    \textbf{Research Proposal:}\\
+    \vspace*{0.3cm}
+    \textbf{NNLO predictions for tribosons processes in Soft-Approximation}}\\
+    \vspace*{0.5cm}
+    {\begin{minipage}{0.85\textwidth}
+    \begin{flushleft}
+    \textbf{Supervisor} \hfill \textbf{Candidate}\\
+    Prof. Dr. Massimiliano Grazzini \hfill Paolo Garbarino\\
+    \end{flushleft}
+    \end{minipage}}
+    \vspace*{1cm}
+    \newline January 2025
+\end{center}
+
+\section{Introduction}
+The ATLAS and CMS experiments at the Large Hadron Collider (LHC) are performing always more precise measurements for a huge number of important processes in order to test the validity of the Standard Model (SM), our preferred theory for the unification of the Strong, Weak and Electromagnetic forces.
+Despite the incredible success of the SM in predicting very precisely several experimental observations, we know for sure that it is not the ultimate theory. For instance, there are still many theoretical problems to be addressed and solved, such as the hierarchy problem, 
+the neutrinos' masses, the strong CP violation and also the inclusion of Gravity.
+In order to look for so-called New Physics (NP) effects, the theoretical predictions must become alway more precise to keep up with the new technological developments leading to extremely precise and accurate experimental measurements: indeed, we know that at the end of 
+the so-called High-Luminosity phase of the LHC the integrated luminosity (and with it, the number of observed events) will increase by about a factor of twenty.
+From the theoretical side, the way to get more precise predictions is to compute the higher orders in the perturbative expansion defining the cross sections for the processes of interest. During my PhD, I will mainly focus on Quantum Chromodynamics (QCD) corrections relevant
+for the LHC, for which the (total) corss section can be written as:
+
+\begin{equation*}
+    \sigma = \sigma_{\rm LO} + \Delta\sigma_{\rm NLO} +  \Delta\sigma_{\rm NNLO} + \dots
+\end{equation*}
+
+where $\sigma_{\rm LO}$ is the Leading-Order cross section, $\Delta\sigma_{\rm NLO}$ the NLO QCD correction, $\Delta\sigma_{\rm NNLO}$ the NNLO QCD correction ans so forth.
+One of the main goals of my PhD is to achieve NNLO-accurate predictions for the class of tribosons processes, especially those for which some ingredients are not yet known, as explained in the next section.
+
+\newpage
+\section{Current state of the art in triboson research}
+One among the fundamental questions to which the experiments carried on at the LHC want to answer to is whether the SM is able to explain trilinear and quartic electroweak gauge couplings. The former is studied in great detail since many years through precise measurements of diboson
+processes, whereas the latter has now become a hot topic, since the first measurements of triboson production (and diboson production in weak-boson scattering). The current experimental state of the art is the following.
+\newline Triphoton ($\gamma\gamma\gamma$) production has been measured by ATLAS at a center-of-mass energy of 8 TeV~\cite{ATLAS:2017lpx}. $W\gamma\gamma$ final states have been measured by ATLAS at 8 TeV~cite{ATLAS:2015ify} and 13 TeV~\cite{ATLAS:2023avk}, as well as $Z\gamma\gamma$ final states 
+at 8 TeV~cite{ATLAS:2016qjc} and 13 TeV~\cite{ATLAS:2022wmu}. 
+\newline CMS has presented measurements of both $Z\gamma\gamma$ and $W\gamma\gamma$ production at 8 TeV~\cite{CMS:2017tzy} and 13 TeV~\cite{CMS:2021jji}, respectively. First observations of final states with a massive vector-boson pair in association with a photon were reported very recently in 13 TeV analyses for $WZ\gamma$ 
+by ATLAS~\cite{ATLAS:2023zkw} and for $WW\gamma$ by CMS~\cite{CMS:2023rcv}. More-over, CMS has reported the observation of $VVV$ final states with three massive bosons in a combined analysis of $WWW$, $WZZ$, $WWZ$ and $ZZZ$ production mostly in the fully leptonic decay channels (also including same-sign dilepton plus two jets 
+signatures)~\cite{CMS:2020hjs}, and ATLAS for a single massive triboson channel, $WWW$~\cite{ATLAS:2022xnu}, both in 13 TeV analyses.
+
+
+
+
+
+
+\newpage
+\printbibliography[heading=bibintoc, title={Bibliography}]
+
+\end{document}
